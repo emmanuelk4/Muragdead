@@ -3,7 +3,7 @@
 import csv
 import math
 import subprocess
-start = 331
+start = 0
 datasetIndex = 0
 validCount = 0
 validTarget = 25
