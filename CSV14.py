@@ -11,8 +11,8 @@ validBound = 231.5
 cadoFolder = "/home/cado-nfs/build/c65b414053c9"
 cadoScript = "cado-nfs.py"
 logsPath = "/home/murage/p95.parameters_snapshot.1"
-filename = f'dataset135_14thQ0_volume_4.csv'
-storage  = f'storage135_14thQ0_volume_4.csv'
+filename = f'dataset135_26thtestQ0_volume_.csv'
+storage  = f'storage135_26thtestQ0_volume_.csv'
 
 def CadoSnapshotLog(cadoFolder, cadoScript, logsPath, target,ell, primeNumber):
     cmd = [f"./{cadoScript}", logsPath, f"target={target}"]
